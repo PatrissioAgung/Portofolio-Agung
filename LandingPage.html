@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <style>
+        .font-new-rocker {
+            font-family: 'New Rocker', cursive;
+        }
+    </style>
+</head>
+
+<body class="bg-[#0e3047] flex flex-col items-center justify-center min-h-screen">
+    <div class="heading">
+        <div class="p-6 flex flex-col text-center gap-y-3">
+            <p class="text-[#FFB37D] text-4xl font-new-rocker"><b>Hello</b></p>
+            <p class="text-[#FFB37D] text-4xl font-new-rocker"><b>Welcome to my world</b></p>
+            <p class="text-white">Hi there, before we get started, what is your name</p>
+            <div>
+                <input type="text" placeholder="insert your name here ..."
+                    class="text-white opacity-50 bg-transparent focus:outline-none focus:opacity-100">
+            </div>
+        </div>
+    </div>
+    
+    <div class="avatar">
+        <div class="text-[#FFB37D] text-xl text-center p-6">
+            <p><b>Choose your avatar</b></p>
+            <div class="animoji flex flex-row mt-7 gap-9">
+                <input type="radio" name="avatar" id="men" class="hidden">
+                <input type="radio" name="avatar" id="woman" class="hidden">
+
+                <label for="men" class="w-24 h-24 bg-cover cursor-pointer"
+                    style="background-image: url('img/men-avatar.png')"></label>
+                <label for="woman" class="w-24 h-24 bg-cover cursor-pointer"
+                    style="background-image: url('img/woman-avatar.png')"></label>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="p-6">
+            <button class="border-2 border-[#FFB37D] text-white rounded-full w-24 h-24">
+                Lets Go !!!
+            </button>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>

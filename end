@@ -1,0 +1,46 @@
+[33mcommit 0c5d3fa96f0b4eab641126ca3246f6d9f4d4db27[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m)[m
+Author: PatrissioAgung <patrissioagung@gmail.com>
+Date:   Sun Jun 2 15:47:11 2024 +0700
+
+    membuat home section
+
+[1mdiff --git a/Home.html b/Home.html[m
+[1mindex ef584e3..0df2311 100644[m
+[1m--- a/Home.html[m
+[1m+++ b/Home.html[m
+[36m@@ -39,6 +39,27 @@[m
+                 </div>[m
+             </div>[m
+         </div>[m
+[32m+[m[32m        <div class="home-section">[m
+[32m+[m[32m            <div class="flex flex-row m-6 h-96">[m
+[32m+[m[32m                <div class=" mr-6 flex flex-col gap-2 border-2 border-dashed border-white justify-center">[m
+[32m+[m[32m                    <p>Hello[m
+[32m+[m[32m                        <span class="text-[#FFB37D] font-bold">Faizal</span>, thank you for visiting my portfolio. My[m
+[32m+[m[32m                        name is[m
+[32m+[m[32m                    </p>[m
+[32m+[m[32m                    <p class="text-[#FFB37D] font-bold text-xl">Patrissio Agung Wisanggeni Susanto</p>[m
+[32m+[m[32m                    <p>I'm a fresh graduate in Informatic from Sanata Dharma University Yogyakarta.</p>[m
+[32m+[m[32m                    <div class="text-wrapper-3">Available for hire</div>[m
+[32m+[m[32m                </div>[m
+[32m+[m[32m                <div class="mx-6 relative border-2 border-dashed border-white">[m
+[32m+[m[32m                    <img class="z-0" src="img/background-profile.png">[m
+[32m+[m[32m                    <img class="absolute top-20" src="img/profile.png" alt="profile">[m
+[32m+[m[32m                </div>[m
+[32m+[m[32m                <div>[m
+[32m+[m[41m                    [m
+[32m+[m[32m                </div>[m
+[32m+[m[32m            </div>[m
+[32m+[m[32m        </div>[m
+[32m+[m
+         <!-- <div class="div">[m
+                     <div class="frame">[m
+                         <div class="profile">[m
+[1mdiff --git a/img/background-profile.png b/img/background-profile.png[m
+[1mnew file mode 100644[m
+[1mindex 0000000..ce7c034[m
+Binary files /dev/null and b/img/background-profile.png differ
+[1mdiff --git a/img/profile.png b/img/profile.png[m
+[1mnew file mode 100644[m
+[1mindex 0000000..fb3f972[m
+Binary files /dev/null and b/img/profile.png differ
